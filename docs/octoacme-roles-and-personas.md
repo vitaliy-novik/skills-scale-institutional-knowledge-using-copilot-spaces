@@ -1,265 +1,234 @@
-# OctoAcme Personas
+# OctoAcme Roles and Personas
 
-This document defines typical roles and responsibilities used in OctoAcme project docs and exercises.
+This document defines roles and personas used across OctoAcme projects. It expands on the previously documented Developer, Product Manager, and Project Manager roles and adds personas that are commonly needed for modern delivery: QA/Testing Lead, Technical Lead/Architect, Scrum Master/Agile Coach, Stakeholder/Sponsor, and UX/Design Lead.
+
+Each persona includes:
+- Role Summary
+- Responsibilities
+- Goals
+- Typical Communication patterns
+- Interaction with existing roles
 
 ---
 
 ## Developers
 
-### Role Summary
-Developers design, build, test, and deliver software components. They collaborate with product and project leads to implement features that meet acceptance criteria and quality standards.
+Role Summary
+Developers design, implement, and maintain features and fixes. They collaborate with Product, QA, and Tech Leads to deliver high-quality software.
 
-### Responsibilities
-- Implement features and fixes to meet acceptance criteria
-- Write and maintain tests and documentation
-- Participate in design and code reviews
-- Assist in estimating and planning work
-- Help identify technical risks and propose mitigations
+Responsibilities
+- Implement features and bug fixes according to acceptance criteria
+- Write automated tests and maintain test coverage
+- Participate in code reviews and follow coding standards
+- Collaborate in sprint ceremonies and estimations
 
-### Goals
-- Deliver reliable, maintainable code
-- Reduce cycle time from idea to production
-- Maintain high test coverage and observability
+Goals
+- Deliver working software that meets the product acceptance criteria
+- Keep code maintainable and well-tested
 
-### Typical Communication
-- Daily standups and sprint planning
-- PR descriptions and code review comments
-- Technical design docs when needed
+Typical Communication
+- Daily standups, PR comments, pairing sessions
+- Technical discussions in design reviews and backlog grooming
 
-### Interactions with Other Roles
-- Collaborate with Technical Lead on architectural decisions and code quality
-- Work with QA/Testing Lead to ensure testability and accept quality criteria
-- Partner with Product Manager to clarify requirements and acceptance criteria
-- Coordinate with Project Manager on schedule and dependencies
+Interaction with other roles
+- Work with Product Managers to clarify requirements
+- Collaborate with QA to ensure testability
+- Take direction and architecture guidance from Technical Leads
 
 ---
 
-## Product Managers
+## Product Manager
 
-### Role Summary
-Product Managers define what should be built to deliver customer and business value. They own the product vision, prioritize the backlog, and measure outcomes.
+Role Summary
+Product Managers define the product vision, prioritize the backlog, and represent the customer and business objectives.
 
-### Responsibilities
-- Define problem statements and success metrics
-- Prioritize the roadmap and backlog
-- Collaborate with stakeholders and engineering on trade-offs
-- Validate solutions through user research and metrics
+Responsibilities
+- Define and prioritize product backlog and acceptance criteria
+- Engage stakeholders and gather feedback
+- Measure success via metrics and outcomes
 
-### Goals
-- Maximize customer value and impact
-- Make clear, data-driven prioritization decisions
-- Ensure product-market fit and usability
+Goals
+- Maximize product value and user satisfaction
+- Deliver features that meet business outcomes
 
-### Typical Communication
-- Weekly alignment with PM and engineering leads
-- Roadmap updates and stakeholder briefings
-- Acceptance criteria and feature specs
+Typical Communication
+- Sprint planning, backlog refinement, roadmap reviews
+- Stakeholder demos and release reviews
 
-### Interactions with Other Roles
-- Work with Stakeholder/Sponsor on business priorities and resource allocation
-- Collaborate with UX/Design Lead on user experience and design specifications
-- Partner with Technical Lead on feasibility and technical trade-offs
-- Align with Project Manager on delivery timelines and milestones
+Interaction with other roles
+- Works with Developers on scope and trade-offs
+- Partners with QA to define acceptance and release criteria
+- Communicates priorities to Project Managers and Sponsors
 
 ---
 
-## Project Managers
+## Project Manager
 
-### Role Summary
-Project Managers coordinate delivery activities, manage schedules, risks, and communications. They enable the team to deliver on commitments efficiently.
+Role Summary
+Project Managers coordinate planning, scheduling, and cross-functional delivery tasks to ensure projects stay on track.
 
-### Responsibilities
-- Create and maintain project plans and timelines
-- Manage risks, dependencies, and resource constraints
-- Facilitate meetings (kickoff, planning, retrospectives)
-- Ensure consistent project documentation and status reporting
-- Coordinate cross-team and stakeholder communication
+Responsibilities
+- Track milestones, timelines, and dependencies
+- Facilitate cross-team communication and remove blockers
+- Manage risks and resource coordination
 
-### Goals
+Goals
 - Deliver projects on time and within scope
-- Minimize unplanned work and escalations
-- Maintain transparency and alignment across stakeholders
+- Reduce delivery friction and escalate issues appropriately
 
-### Typical Communication
-- Weekly status updates and stakeholder reports
-- Risk registers and decision logs
-- Coordination via project boards and meeting facilitation
+Typical Communication
+- Status updates, risk reviews, and stakeholder reports
 
-### Interactions with Other Roles
-- Escalate risks and blockers identified by Developers and Technical Lead
-- Coordinate QA/Testing Lead on quality milestones and release readiness
-- Report progress to Stakeholder/Sponsor and facilitate priority discussions
-- Facilitate communication between all team roles
+Interaction with other roles
+- Coordinates closely with Product Managers and Sponsors
+- Works with Scrum Masters to align team-level execution
 
 ---
 
-## QA/Testing Lead
+## QA / Testing Lead
 
-### Role Summary
-QA/Testing Leads define quality strategy, plan test coverage, and validate that deliverables meet acceptance criteria and quality standards. They partner with developers and product managers to ensure features are tested thoroughly before release.
+Role Summary
+QA/Testing Leads define the quality strategy, plan test coverage, and validate that deliverables meet acceptance criteria and quality standards. They partner with Developers and Product Managers to ensure features are tested thoroughly before release.
 
-### Responsibilities
-- Define test strategy and quality acceptance criteria
-- Create and maintain test plans and test cases
-- Coordinate manual and automated testing efforts
-- Report quality metrics and defect trends
-- Validate release readiness before deployment
-- Collaborate with developers on testability and CI/CD setup
+Responsibilities
+- Define test strategy, acceptance criteria, and exit criteria for releases
+- Create and maintain test plans, cases, and automated test suites
+- Coordinate manual and automated testing efforts across teams
+- Report quality metrics, defect trends, and release readiness
+- Validate release readiness and sign off for production deployments
+- Collaborate with Developers on testability, CI/CD, and flaky test mitigation
 
-### Goals
-- Deliver high-quality features that meet customer expectations
+Goals
+- Deliver high-quality features with predictable release quality
 - Reduce production defects and rework
-- Enable fast, confident releases through comprehensive test coverage
+- Enable fast, confident releases through reliable test coverage
 
-### Typical Communication
-- Sprint planning and acceptance criteria refinement
-- Test status updates in daily standups and weekly syncs
-- Quality metrics reporting and risk escalation
-- Post-release incident coordination
+Typical Communication
+- Acceptance criteria refinement during sprint planning
+- Test status updates in standups and release readiness meetings
+- Quality and risk reporting to Project Managers and Sponsors
+- Post-release incident coordination and retrospectives
 
-### Interactions with Other Roles
-- Partner with Developers to ensure testable code and CI/CD integration
-- Collaborate with Product Manager on acceptance criteria clarity
-- Coordinate with Project Manager on release readiness milestones
-- Work with Technical Lead on test architecture and quality standards
-- Report quality status to Stakeholder/Sponsor when issues impact release decisions
+Interaction with other roles
+- Works with Product Managers to ensure acceptance criteria are testable
+- Collaborates with Developers to build automated tests and test hooks
+- Updates Project Managers on risks and test coverage
+- Escalates significant quality risks to Sponsors when needed
 
 ---
 
 ## Technical Lead / Architect
 
-### Role Summary
-Technical Leads guide architectural decisions, review technical designs, mentor developers, and ensure solutions are scalable, maintainable, and aligned with technical strategy. They bridge product requirements with technical feasibility.
+Role Summary
+Technical Leads guide architectural decisions, review technical designs, mentor developers, and ensure solutions are scalable, maintainable, and aligned with the technical strategy.
 
-### Responsibilities
+Responsibilities
 - Define technical approach and architecture for major features
-- Review technical designs and code for quality and best practices
+- Review designs and code for quality, security, and performance
 - Identify technical risks and propose mitigation strategies
-- Mentor developers and foster technical excellence
-- Collaborate with Product and Project Managers on technical feasibility
-- Guide technology choices and tooling decisions
+- Mentor engineers and foster technical excellence and consistency
+- Coordinate cross-team technical decisions and platform changes
+- Maintain and communicate a clear technical roadmap
 
-### Goals
-- Deliver technically sound, maintainable solutions
-- Build team capability and knowledge
-- Ensure scalability and long-term system health
+Goals
+- Deliver technically sound, maintainable solutions aligned with long-term strategy
+- Reduce technical debt and risks
+- Raise team capability through mentoring and standards
 
-### Typical Communication
-- Design reviews and technical specifications
-- Code review and architectural guidance
-- Risk identification and mitigation planning
-- Technical strategy discussions with leadership
+Typical Communication
+- Design reviews, architecture docs, and technical RFCs
+- Code review feedback and implementation guidance
+- Risk and dependency discussions with Project Managers and Product Managers
 
-### Interactions with Other Roles
-- Guide Developers on technical decisions and code quality standards
-- Advise Product Manager on technical feasibility and trade-offs
-- Identify technical risks to Project Manager for risk register
-- Collaborate with QA/Testing Lead on test architecture and quality standards
-- Escalate significant technical risks or blockers to Stakeholder/Sponsor
-
----
-
-## UX/Design Lead
-
-### Role Summary
-UX/Design Leads define user experience, create design specifications, and validate usability. They ensure products are intuitive, accessible, and aligned with user needs and brand standards.
-
-### Responsibilities
-- Conduct user research and define user personas/journeys
-- Create wireframes, prototypes, and design specifications
-- Validate designs through user testing and feedback
-- Ensure accessibility and usability standards are met
-- Collaborate with developers on design implementation and iteration
-- Establish and maintain design systems and component libraries
-
-### Goals
-- Deliver intuitive, accessible user experiences
-- Reduce user friction and support burden
-- Align product design with business objectives and user needs
-
-### Typical Communication
-- Design reviews and feedback sessions with developers
-- User research findings and usability test results
-- Design specifications in acceptance criteria
-- Design system updates and component documentation
-
-### Interactions with Other Roles
-- Partner with Product Manager on user needs and feature prioritization
-- Collaborate with Developers on design implementation and feasibility
-- Work with QA/Testing Lead to validate usability in acceptance criteria
-- Advise Technical Lead on frontend architecture and component design
-- Present design direction to Stakeholder/Sponsor for approval
+Interaction with other roles
+- Partners with Product Managers to translate product needs into feasible solutions
+- Works with QA to ensure testability and performance validation
+- Coordinates with Scrum Masters and Project Managers on technical dependencies
 
 ---
 
 ## Scrum Master / Agile Coach
 
-### Role Summary
-Scrum Masters facilitate agile ceremonies, remove team blockers, coach the team on agile practices, and foster a culture of continuous improvement. They act as a servant-leader to help the team maximize productivity and effectiveness.
+Role Summary
+Scrum Masters or Agile Coaches facilitate agile ceremonies, remove team impediments, and support continuous improvement in delivery practices.
 
-### Responsibilities
-- Facilitate daily standups, sprint planning, reviews, and retrospectives
-- Remove impediments and blockers that slow team progress
-- Coach team members on agile practices and ceremonies
-- Maintain team health and psychological safety
-- Track team velocity and sprint progress
-- Foster continuous improvement and adaptation
+Responsibilities
+- Facilitate sprint planning, standups, retrospectives, and demos
+- Help the team remove blockers and improve delivery flow
+- Coach teams on agile practices and healthy collaboration patterns
+- Track team metrics (velocity, cycle time) and help optimize processes
 
-### Goals
-- Maximize team productivity and predictability
-- Build a high-performing, self-organizing team
-- Enable rapid feedback and iteration cycles
+Goals
+- Improve predictability and team throughput
+- Foster a culture of continuous improvement and psychological safety
 
-### Typical Communication
-- Facilitation of all agile ceremonies
-- One-on-one coaching with team members
-- Blocker escalation and resolution
-- Retrospective action items and tracking
+Typical Communication
+- Daily standups, retrospective facilitation, and impediment escalation
+- One-on-one coaching and team health check-ins
 
-### Interactions with Other Roles
-- Support all team members (Developers, QA, Technical Lead, UX/Design) in following agile practices
-- Facilitate communication and collaboration across roles
-- Escalate team impediments to Project Manager for resolution
-- Coach team on definition of done and acceptance criteria practices
-- Help Stakeholder/Sponsor understand team capacity and velocity for planning
+Interaction with other roles
+- Coordinates with Project Managers on cross-team dependencies
+- Supports Developers and QA in improving delivery practices
+- Works with Product Managers to improve backlog health and clarity
 
 ---
 
 ## Stakeholder / Sponsor
 
-### Role Summary
-Stakeholders or Sponsors are business owners, executives, or key decision-makers who provide business context, prioritize work, allocate resources, and make go/no-go decisions. They ensure projects deliver business value and stay aligned with organizational goals.
+Role Summary
+Stakeholders or Sponsors are business owners, executives, or key decision-makers who provide business context, prioritize work, allocate resources, and make go/no-go decisions.
 
-### Responsibilities
+Responsibilities
 - Define business objectives and success metrics
-- Prioritize projects and features based on business need
-- Allocate resources (team members, budget)
-- Make go/no-go decisions at key gates
-- Provide executive support and remove organizational blockers
-- Participate in kickoff and acceptance reviews
+- Prioritize strategic initiatives and allocate resources and budget
+- Make key decisions at project gates and remove organizational blockers
+- Provide executive support and visibility
 
-### Goals
-- Maximize business value and ROI from projects
-- Ensure organizational alignment and resource efficiency
-- Enable fast decision-making and risk escalation
+Goals
+- Maximize business value and ROI from investments
+- Ensure organizational alignment and timely decisions
 
-### Typical Communication
-- Project initiation and approval meetings
-- Monthly stakeholder status updates
-- Risk and decision escalations
-- Release announcements and outcome reviews
+Typical Communication
+- Project kickoffs and key decision meetings
+- Monthly or quarterly status updates and milestone reviews
+- Risk and escalation conversations for high-impact issues
 
-### Interactions with Other Roles
-- Work with Project Manager on schedule, risks, and resource needs
-- Partner with Product Manager on business priorities and success metrics
-- Review quality and release readiness with QA/Testing Lead
-- Receive technical risk escalations from Technical Lead and Project Manager
-- Approve design direction and user experience approach from UX/Design Lead
+Interaction with other roles
+- Works with Product Managers to set strategy and prioritization
+- Engages Project Managers for status, risks, and resource needs
+- Reviews release outcomes and acceptance criteria
 
 ---
 
-## How these personas are used in the exercise
-- Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
-- Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
-- When running projects, reference this document to clarify role responsibilities and communication patterns.
-- Use the "Interactions with Other Roles" section to understand cross-functional dependencies and communication needs.
+## UX / Design Lead
+
+Role Summary
+UX/Design Leads define user experience goals, create design specifications, and validate usability to ensure solutions are user-centered and consistent with brand standards.
+
+Responsibilities
+- Drive user research and synthesize user needs into design priorities
+- Produce high-fidelity designs, interaction specs, and design tokens
+- Define accessibility and usability acceptance criteria
+- Collaborate on design handoffs and provide assets and specs
+- Participate in usability validation and pre-release reviews
+
+Goals
+- Deliver intuitive, accessible, and consistent user experiences
+- Reduce UI rework and improve time-to-value for users
+
+Typical Communication
+- Design reviews, handoff sessions, and usability test reports
+- Collaboration with Product Managers during discovery and prioritization
+
+Interaction with other roles
+- Works with Developers to ensure feasible handoffs and maintain design fidelity
+- Partners with QA to validate UI acceptance and accessibility
+- Engages Product Managers and Stakeholders for design decisions and trade-offs
+
+---
+
+## How these personas work together (summary)
+- Product Managers set the "what"; Technical Leads and Developers determine the "how"; QA and UX ensure the delivered "what" meets quality and usability goals; Project Managers and Scrum Masters coordinate timing and delivery; Sponsors provide resources and decisions.
+- Clear ownership and defined communication patterns reduce rework and speed decision-making.
+
+
